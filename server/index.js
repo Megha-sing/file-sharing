@@ -7,12 +7,12 @@ import path from 'path';
 dotenv.config();
 
 const app = express();
-const __dirname = path.resolve(); // ✅ Define before using
+const __dirname = path.resolve(); 
 
 // CORS setup
 app.use(cors({
   origin: process.env.NODE_ENV === "production" 
-    ? "https://your-frontend-domain.com" // deployed frontend
+    ? "https://file-sharing-vky4.onrender.com" // deployed frontend
     : "http://localhost:3000",            // dev frontend
   credentials: true
 }));
