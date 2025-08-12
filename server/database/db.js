@@ -9,7 +9,7 @@ const DBConnection = async () => {
 
     const MONGO_URI = `mongodb+srv://root:root@file-sharing.0t3zyzq.mongodb.net/?retryWrites=true&w=majority&appName=file-sharing1`;   
      try {
-        await mongoose.connect(MONGO_URI, { useNewUrlParser: true });
+        await mongoose.connect(MONGO_URI);
         console.log('Database connected successfully');
     } catch (error) {
         console.log('Error while connecting with the database ', error.message);
