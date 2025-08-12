@@ -25,6 +25,10 @@ This project allows users to upload files and generate shareable links for easy 
 
 ---
 
+## 📷 Screenshots
+<img width="955" height="439" alt="image" src="https://github.com/user-attachments/assets/6463aaa9-657c-4bed-93f3-c6ec819d1fc5" />
+<img width="954" height="443" alt="image" src="https://github.com/user-attachments/assets/3d7d82bd-1c6c-4a33-aa81-d0c714dc4f55" />
+
 ## 📦 Installation
 
 1. **Clone the repository**
