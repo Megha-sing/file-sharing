@@ -3,7 +3,7 @@ import axios from "axios";
 export const axiosInstance = axios.create({
     baseURL: process.env.NODE_ENV === "development"
       ? "http://localhost:8000" // Dev API
-      : "https://https://file-sharing-vky4.onrender.com" // Prod API
+      : "https://file-sharing-vky4.onrender.com" // Prod API
   
 });
 
